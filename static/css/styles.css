@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -8,6 +8,7 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   /* 
+
       Change favorite color
       Default: hsl(162, 100%, 40%)
       Orange: hsl(14, 100%, 65%) - Blue: hsl(210, 100%, 70%)
