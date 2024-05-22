@@ -165,7 +165,7 @@ svg {
 }
 
 .nav{
-    height: var(--header-height);
+    height:var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,14 +193,12 @@ svg {
     .nav__menu{
         position: fixed;
         top: 0;
-        right: -100%;
+        right: 0;
         background-color: hsla(0, 0%, 10%, .3);
         width: 75%;
         height: 100%;
         padding: 4.5rem 0 0 3rem;
         backdrop-filter: blur(24px);
-        -webkit-backdrop-filter: blur(24px); /*for Zafari*/
-        transition: right .4s;
     }
 }
 
@@ -313,6 +311,20 @@ svg {
 }* If we want to adjust the image/
 
 /*=============== BUTTON ===============*/
+
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: box-shadow .4s;
+}
+
+.button:hover{
+    box-shadow: 2 8px 24px hsla(var(--hue), 100%, 40%, .25);
+}
 
 
 /*=============== ABOUT ===============*/
