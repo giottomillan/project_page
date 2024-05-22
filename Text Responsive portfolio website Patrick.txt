@@ -11,23 +11,23 @@ Home - About - Services - Projects - Contact
 Hello, <span>I’m</span>
 
 .home__title
-Patrick Moz
+Giotto Millán
 
 .home__education
-Front-end Developer
+Data Scientist
 
 .home__description
-With knowledge in web development and 
-design, I offer the best projects resulting 
+With knowledge in data analyst and 
+machine Learning, I offer the best projects resulting 
 in quality work.
 
 .button
 Let's Talk
 
 .home__social
-https://github.com/
-https://dribbble.com/
-https://www.linkedin.com/
+https://github.com/giottomillan
+https://gemini.google.com/app?hl=es
+https://www.linkedin.com/in/giotto-millan/
 
 .home__social-icon (clip-path)
 polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
