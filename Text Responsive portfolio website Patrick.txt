@@ -62,14 +62,16 @@ to develop the projects for you.
 See Projects
 
 .skills__item
-HTML & CSS
-JavaScript
-Bootstrap
-React
+Python
+MySQL
+PowerBI
+Tableau
+MongoDB
 
 Git & GitHub
-Figma
-Sketch
+AWS Amazon
+Google Cloud
+Microsoft Azure 
 
 
 ========== SERVICES ==========
@@ -80,20 +82,17 @@ My <span>Services
 What I Do
 
 .services__title .services__description
-Web Developer
-Development of custom web pages. 
-Using current technologies and 
-libraries of the labor field.
+Data Analyst
+I have experience in exploratory data analysis (EDA), 
+leveraging visualization tools and storytelling techniques to derive insights and conclusions.
 
-UI/UX Designer
-I offer design of web interfaces and 
-mobile applications, design made in 
-figma, adobe xd and sketch.
+Data Engineer
+I have expertise in ETL processes and data cleaning, 
+as well as proficiency in managing both relational and non-relational databases.
 
-Graphic Design
-I make designs at the client's request, 
-banner design, posters, digital 
-designs among others.
+ML Engenieer
+Training and optimizing models for classification and prediction using supervised learning. 
+Additionally, proficient in NLP models for text analysis.
 
 
 ========== PROJECTS ==========
