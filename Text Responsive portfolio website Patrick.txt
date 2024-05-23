@@ -41,10 +41,7 @@ My <span>Intro</span>
 About Me
 
 .about__description
-Frontend developer, I create web pages with 
-UI / UX user interface, I have years of 
-experience and many clients are happy with the 
-projects carried out.
+I am a data scientist with experience in real-world projects, focusing on data extraction, transformation, and loading (ETL). Strong skills in data cleaning, exploratory analysis, and visualization using tools such as Python, Tableau, and PowerBI. Experience with databases, including MySQL and MongoDB, and in A/B testing studies using both Bayesian and frequentist statistical techniques. My approach involves using machine learning techniques for predictions and classifications. 
 
 .button
 Contact Me
