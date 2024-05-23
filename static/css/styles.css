@@ -20,8 +20,8 @@
       -> Copy the color mode (HSL)
   */
 
-  --hue: 162;
-  --first-color: hsl(var(--hue), 100%, 40%);
+  --hue: 210;
+  --first-color: hsl(var(--hue), 100%, 70%);
   --first-color-alt: hsl(var(--hue), 56%, 35%);
   --title-color: hsl(228, 8%, 95%);
   --text-color: hsl(228, 8%, 65%);
@@ -190,17 +190,20 @@ svg {
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1023px){
-    .nav__menu{
-        position: fixed;
-        top: 0;
-        right: 0;
-        background-color: hsla(0, 0%, 10%, .3);
-        width: 75%;
-        height: 100%;
-        padding: 4.5rem 0 0 3rem;
-        backdrop-filter: blur(24px);
+.nav__menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: hsla(0, 0%, 10%, 0.3);
+    width: 75%;
+    height: 100%;
+    padding: 4.5rem 0 0 3rem;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px); /*For Safari*/
+    transition: right .4s;
     }
 }
+
 
 .nav__list{
     display: flex;
@@ -305,10 +308,14 @@ svg {
    filter: drop-shadow(0 12px 12px hsla(var(--hue), 100%, 40%, .2)); 
 }
 
-/* .home__img{
+
+/*
+.home__img{
     width: 900px;
-    transform: translateX(-40px);
-}* If we want to adjust the image/
+    transform: translateX(-120px);
+}
+
+ If we want to adjust the image */
 
 /*=============== BUTTON ===============*/
 
@@ -323,7 +330,7 @@ svg {
 }
 
 .button:hover{
-    box-shadow: 2 8px 24px hsla(var(--hue), 100%, 40%, .25);
+    box-shadow: 0 8px 24px hsla(var(--hue), 100%, 40%, .25);
 }
 
 
