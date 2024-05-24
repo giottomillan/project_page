@@ -103,9 +103,9 @@ My <span>Jobs</span>
 Recent Projects
 
 .projects__subtitle .projects__title .projects__button
-Web
-Modern website
-View demo
+ETL
+EDA
+ML
 
 
 ========== CONTACT ==========
