@@ -426,7 +426,10 @@ svg {
 }
 
 /*=============== SERVICES ===============*/
-
+.services__container{
+  row-gap: 2rem;
+  padding-block: 1rem;
+}
 
 /*=============== PROJECTS ===============*/
 
