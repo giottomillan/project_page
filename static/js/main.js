@@ -42,6 +42,25 @@ window.addEventListener('scroll', blurHeader)
 
 /*=============== EMAIL JS ===============*/
 
+const contactForm = document.getElementById('contact-form')
+    contactMessage = document.getElementById('contact-message')
+
+const sendEmail = (e) =>{
+    e.preventDefault()
+
+    // serviceID - templateID - #form - publicKey
+    emailjs.sendForm('service_ie9x0hj', 'template_woeskwz', '#contact-form', 'R8XQHK0GZpslluyhH')
+        .then(() =>{
+            // Show sent message
+            contactMessage.textContent = 'Message sent successfully ✅'
+
+        },() =>{
+            // Show error message
+            contactMessage.textContent = 'Message not sent (service error) ❌'
+        })
+}
+
+contactForm.addEventListener('submit', sendEmail)
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
