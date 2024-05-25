@@ -156,10 +156,10 @@ EmailJS team
 
 ========== FOOTER ==========
 .footer__title
-Patrick <span>Moz</span>
+Giotto <span>Millán</span>
 
 .footer__education
-Front-end Developer  
+Data Scientist  
 
 .footer__social-link
 https://www.facebook.com/
