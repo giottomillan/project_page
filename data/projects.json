@@ -52,6 +52,15 @@
     "descriptionEn": "Predictive model for laptop prices in Kaggle.",
     "image": "/images/jpeg-optimizer_lapsimg_competition_kaggle.jpg",
     "url": "https://github.com/giottomillan/kaggle_project"
+  },
+  {
+    "slug": "habitable-exoplanets",
+    "title": "Habitable ExoPlanets",
+    "category": "Space Data Science",
+    "descriptionEs": "Analisis de exoplanetas potencialmente habitables con tecnicas de ciencia de datos.",
+    "descriptionEn": "Analysis of potentially habitable exoplanets using data science techniques.",
+    "image": "/images/data-lakehouse-new.png",
+    "url": "https://github.com/giottomillan/HabitableExoPlanets"
   }
 ]
 
