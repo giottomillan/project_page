@@ -13,7 +13,7 @@ body {
 
 .main-grid {
   background-image:
-    linear-gradient(rgba(11, 85, 99, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(11, 85, 99, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(126, 231, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(126, 231, 255, 0.08) 1px, transparent 1px);
   background-size: 24px 24px;
 }

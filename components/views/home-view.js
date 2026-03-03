@@ -1,10 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 import profile from "@/data/profile.json";
 import projects from "@/data/projects.json";
 import ProjectCard from "@/components/project-card";
 import SiteFooter from "@/components/site-footer";
 import SiteHeader from "@/components/site-header";
 import { copy, localizePath } from "@/lib/i18n";
+import { withBasePath } from "@/lib/paths";
 
 export default function HomeView({ lang }) {
   const t = copy[lang];
@@ -24,23 +26,23 @@ export default function HomeView({ lang }) {
               </h1>
               <p className="max-w-xl text-lg text-ocean">{t.home.summary}</p>
               <div className="flex flex-wrap gap-3">
-                <a
+                <Link
                   href={localizePath("/contact", lang)}
                   className="rounded-full bg-ocean px-6 py-3 text-sm font-semibold text-cloud transition hover:bg-night"
                 >
                   {t.cta.contact}
-                </a>
-                <a
+                </Link>
+                <Link
                   href={localizePath("/projects", lang)}
                   className="rounded-full border border-ocean px-6 py-3 text-sm font-semibold text-ocean transition hover:border-coral hover:text-coral"
                 >
                   {t.cta.projects}
-                </a>
+                </Link>
               </div>
             </div>
-            <div className="relative mx-auto h-[360px] w-full max-w-sm overflow-hidden rounded-[2rem] border border-ocean/10 bg-white shadow-soft">
+            <div className="relative mx-auto h-[360px] w-full max-w-sm overflow-hidden rounded-[2rem] border border-ocean/25 bg-sand shadow-soft">
               <Image
-                src={profile.heroImage}
+                src={withBasePath(profile.heroImage)}
                 alt={`${profile.name} portrait`}
                 fill
                 priority
@@ -59,12 +61,12 @@ export default function HomeView({ lang }) {
               </p>
               <h2 className="font-heading text-3xl text-night">{t.projects.title}</h2>
             </div>
-            <a
+            <Link
               href={localizePath("/projects", lang)}
               className="text-sm font-semibold text-ocean underline-offset-4 hover:text-coral hover:underline"
             >
               {lang === "en" ? "Browse all" : "Ver todos"}
-            </a>
+            </Link>
           </div>
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {projects.slice(0, 3).map((project) => (

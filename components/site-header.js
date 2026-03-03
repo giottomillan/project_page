@@ -11,7 +11,7 @@ export default function SiteHeader({ lang, copy, currentPath = "/" }) {
   ];
 
   return (
-    <header className="sticky top-0 z-20 border-b border-ocean/10 bg-cloud/90 backdrop-blur">
+    <header className="sticky top-0 z-20 border-b border-ocean/25 bg-sand/90 backdrop-blur">
       <nav
         className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 md:px-6"
         aria-label="Main navigation"

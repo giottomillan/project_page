@@ -3,6 +3,7 @@ import profile from "@/data/profile.json";
 import SiteFooter from "@/components/site-footer";
 import SiteHeader from "@/components/site-header";
 import { copy } from "@/lib/i18n";
+import { withBasePath } from "@/lib/paths";
 
 export default function AboutView({ lang }) {
   const t = copy[lang];
@@ -25,16 +26,16 @@ export default function AboutView({ lang }) {
             {profile.skills.map((skill) => (
               <li
                 key={skill}
-                className="rounded-full border border-ocean/20 bg-white px-3 py-1 text-sm text-ocean"
+                className="rounded-full border border-ocean/30 bg-sand/80 px-3 py-1 text-sm text-ocean"
               >
                 {skill}
               </li>
             ))}
           </ul>
         </div>
-        <div className="relative mx-auto h-[420px] w-full max-w-md overflow-hidden rounded-[2rem] border border-ocean/10 bg-white shadow-soft">
+        <div className="relative mx-auto h-[420px] w-full max-w-md overflow-hidden rounded-[2rem] border border-ocean/25 bg-sand shadow-soft">
           <Image
-            src={profile.aboutImage}
+            src={withBasePath(profile.aboutImage)}
             alt={`${profile.name} profile`}
             fill
             className="object-cover"

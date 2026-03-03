@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? "/project_page" : ""
+  },
   basePath: isProd ? "/project_page" : "",
   assetPrefix: isProd ? "/project_page/" : ""
 };

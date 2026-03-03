@@ -1,13 +1,14 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 
 export default function ProjectCard({ project, lang }) {
   const description = lang === "en" ? project.descriptionEn : project.descriptionEs;
 
   return (
-    <article className="group overflow-hidden rounded-3xl border border-ocean/10 bg-cloud shadow-soft transition hover:-translate-y-1">
+    <article className="group overflow-hidden rounded-3xl border border-ocean/20 bg-sand/80 shadow-soft transition hover:-translate-y-1">
       <div className="relative h-52 w-full overflow-hidden">
         <Image
-          src={project.image}
+          src={withBasePath(project.image)}
           alt={project.title}
           fill
           className="object-cover transition duration-500 group-hover:scale-105"
