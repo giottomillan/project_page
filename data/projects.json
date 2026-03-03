@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "portfolio-website",
+    "title": "Portfolio Website",
+    "category": "Web",
+    "descriptionEs": "Sitio personal responsive para mostrar experiencia, stack y casos practicos.",
+    "descriptionEn": "Responsive personal website to present experience, stack, and case studies.",
+    "image": "/images/photo_page.jpeg",
+    "url": "https://giottomillan.github.io/project_page/"
+  },
+  {
+    "slug": "layoffs-forecast",
+    "title": "Layoffs Forecast",
+    "category": "Forecasting",
+    "descriptionEs": "Limpieza de datos y prediccion de tendencias de despidos.",
+    "descriptionEn": "Data cleaning and layoffs trend forecasting.",
+    "image": "/images/layoffs_forecast.png",
+    "url": "https://github.com/giottomillan/layoffs"
+  },
+  {
+    "slug": "macroeconomy",
+    "title": "Macroeconomy",
+    "category": "Data Visualization",
+    "descriptionEs": "Visualizacion de indicadores y tasa de crecimiento macroeconomico.",
+    "descriptionEn": "Visualization of indicators and macroeconomic growth rate.",
+    "image": "/images/jpeg-optimizer_Frecuencia-tasa-de-crecimiento-macroeconomy.png",
+    "url": "https://github.com/giottomillan/project_macro"
+  },
+  {
+    "slug": "project-play",
+    "title": "Project Play",
+    "category": "Web Scraping",
+    "descriptionEs": "Extraccion y analisis de datos del mercado gaming.",
+    "descriptionEn": "Data extraction and analysis of the gaming market.",
+    "image": "/images/jpeg-optimizer_Leonardo_Signature_playstation_gamers_0.jpg",
+    "url": "https://github.com/giottomillan/project_play"
+  },
+  {
+    "slug": "project-cancer",
+    "title": "Project Cancer",
+    "category": "ML Classification",
+    "descriptionEs": "Modelo de clasificacion aplicado a variables medicas.",
+    "descriptionEn": "Classification model applied to medical variables.",
+    "image": "/images/jpeg-optimizer_corre_variables_cancer.png",
+    "url": "https://github.com/giottomillan/project_cancer"
+  },
+  {
+    "slug": "laptop-price-prediction",
+    "title": "Laptop Price Prediction",
+    "category": "Competition",
+    "descriptionEs": "Modelo predictivo para precios de laptops en Kaggle.",
+    "descriptionEn": "Predictive model for laptop prices in Kaggle.",
+    "image": "/images/jpeg-optimizer_lapsimg_competition_kaggle.jpg",
+    "url": "https://github.com/giottomillan/kaggle_project"
+  }
+]
+

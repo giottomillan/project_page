@@ -1,0 +1,34 @@
+{
+  "name": "Giotto Millan",
+  "role": "Data Scientist",
+  "email": "giottomillan@gmail.com",
+  "locationEs": "Madrid, Espana",
+  "locationEn": "Madrid, Spain",
+  "heroImage": "/images/CV 1-min.png",
+  "aboutImage": "/images/CV 2-min.png",
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/giottomillan"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/giotto-millan/"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/GiottoMillan"
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Tableau",
+    "Power BI",
+    "AWS",
+    "Azure",
+    "PySpark"
+  ]
+}
+
